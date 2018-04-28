@@ -1,0 +1,41 @@
+span[tx-bind="error"]{
+    color: red;
+}
+
+.tx-limit{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.tx-limit-main{
+    height: 100%;
+}
+
+.tx-limit-main > textarea{
+        width: 100%;
+        height: 100%;
+        resize: none;
+        padding: 5px 10px 0 5px;
+}
+
+.tx-limit-main > textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.tx-limit-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 28px;
+    padding-right: 10px;
+    font-size: 1rem;
+    font-weight: 300;
+    font-family: 'Roboto' sans-serif;
+    color: lightgray;
+    z-index: 2;
+    text-align: right;
+}

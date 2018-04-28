@@ -1,0 +1,24 @@
+{
+  "name": "textarea-limit",
+  "version": "1.0.0",
+  "description": "Displaying textarea characters limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaksymBlank/textarea-limit.git"
+  },
+  "keywords": [
+    "textarea",
+    "limit",
+    "js"
+  ],
+  "author": "Maksym Blank",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaksymBlank/textarea-limit/issues"
+  },
+  "homepage": "https://github.com/MaksymBlank/textarea-limit#readme"
+}

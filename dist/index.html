@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet">
+    <link rel="stylesheet" href="./../tx-limit.css">
+    <script src="./../tx-limit.js"></script>
+
+    <title>TextArea Limit</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">TextArea limit</h1>
+        <div class="tx-limit">
+            <div class="tx-limit-main">
+                <textarea class="tx-limit-area"></textarea>
+            </div>
+            <div class="tx-limit-bottom">
+                <span tx-bind="error"></span>
+                <span tx-bind="current">0</span>/<span tx-bind="limit">100</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
